@@ -44,8 +44,13 @@ alert(x)*/
 // let find=x+y;
 // console.log(find);
 
-const name="YV";
-const sur="SAHIL";
-console.log("My name is : "+name+" "+sur+".");
-tia=(`MY name is : ${name} ${sur}.`);
-console.log(`Hakumana tata : ${tia}`);
+// const name="YV";
+// const sur="SAHIL";
+// console.log("My name is : "+name+" "+sur+".");
+// tia=(`MY name is : ${name} ${sur}.`);
+// console.log(`Hakumana tata : ${tia}`);
+
+let y="type conversion";
+console.log(y);
+console.log(typeof y);
+console.log(typeof Number(y));
