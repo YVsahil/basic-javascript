@@ -50,7 +50,36 @@ alert(x)*/
 // tia=(`MY name is : ${name} ${sur}.`);
 // console.log(`Hakumana tata : ${tia}`);
 
-let y="type conversion";
-console.log(y);
-console.log(typeof y);
-console.log(typeof Number(y));
+// const y="type conversion";
+// console.log(y);
+// console.log(typeof y);
+// console.log(typeof Number(y));
+
+
+//type conversion and string methods
+// let num=9876;
+// console.log(typeof num);
+// console.log(typeof String(num));
+// console.log(typeof Number.toString(num));
+
+//string method
+ let str="Hello, world, RAM";
+let y="Hakuna matata";
+
+// //charat
+// // console.log(str.charAt(6));
+// // console.log(str.length);
+// console.log(str.concat(y));
+
+// console.log(str.replace("Hello","halooo"));
+// console.log(str.indexOf("o"));
+// console.log(str.lastIndexOf("l"));
+// console.log(str.includes("Hello"));
+// console.log(str.split(","));
+// console.log(str.toLowerCase());
+// console.log(y.toUpperCase());
+
+let z="    hakuna    ma   tata";
+console.log(z)
+console.log(z.trim());
+console.log(str.slice(0,2));
