@@ -1,5 +1,7 @@
-.a{
-    background:rgb(233, 157, 157);
-    color: white;
-    text-align: center;
+#as{
+    background: rgb(252,251,252);
+background: linear-gradient(90deg, rgba(252,251,252,1) 0%, rgba(253,29,29,1) 50%, rgba(251,251,250,1) 100%);
 }
+/* .l{
+    background-color: rgb(183, 53, 53);
+} */

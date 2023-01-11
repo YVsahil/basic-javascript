@@ -172,8 +172,196 @@ alert(x)*/
 // console.log(a.reverse());
 
 //sort
-a=[5243,5,6,17,48,2,34,345,498];
-console.log(a);
-const b=a.sort();
-console.log(b);
-console.log(a);
+// a=["amit","bibek","rahul"]
+// //a=[5243,5,6,17,48,2,34,345,498];
+// console.log(a);
+// const b=a.sort();
+// console.log(b);
+// console.log(a);
+
+
+// let a=[];
+// for(let i=0;i<11;i++){
+//     a[i]=i;
+//     //a.push(i);
+//     console.log(a)
+// }
+
+//object
+
+// const myprofile={
+//     fname:"amit",
+//     lname:"yadav",
+//     age:29,
+//     ismarried:true,
+//     wage:function(){
+//         console.log("i'm rich kiddo");
+//         return true;
+//     }
+// }
+
+// console.log(myprofile);
+// console.log(myprofile.lname);
+// console.log(myprofile["fname"]);
+// console.log(myprofile.wage());
+
+
+// const car={
+//     make:"lambo",
+//     model:"hibru",
+//     color:"mat black",
+//     ev:false,
+//     power:2000,
+//     startengine:function(){
+//         console.log("start engine!");
+//         return true;
+//     },
+//     stopengine:function(){
+//         console.log("Stop engine");
+//         return false;
+//     }
+// }
+// console.log(car);
+// // console.log(car.startengine());
+// // console.log(car.stopengine());
+
+// if(car.startengine())
+// {
+//     console.log("car is ready");
+// }
+// else if(car.endengine())
+// {
+//     console.log("get lost");
+// }
+// else{
+//     console.log("INvalid")
+// }
+
+
+//functions
+// function plu() {
+//     let a=56;
+//     let b=80;
+//     let c=45;
+//     let res=(a+b+b)/3;
+//     console.log(res);
+// }
+// res()
+
+// function treon(a,b,c){
+//     return a+b+c;
+// }
+// const ans=treon(2,3,4);
+// const an2s=treon(2,8,4);
+// console.log(ans);
+// console.log(an2s);
+
+// const a=function(){
+//     let a=2;
+//     let b=123;
+//     let res=(a+b)*9;
+//     console.log(res);
+// }
+// console.log(a);
+
+// function a(arr=[])
+// {
+//     let total=0;
+//     for(let i=0;i<arr.length;i++)
+//     {
+//         // console.log(arr[i]);
+//         total=total+arr[i];
+//        // console.log(total)
+//     }
+//     return total;
+// }
+
+// const ans=a([2,3,5,63,2,4]);
+// console.log(ans);
+
+
+//scoping
+// var a=56;       //global scope
+// function y(){
+//     var a=53+9;   //local scope
+//     console.log(a);
+// }
+// console.log(a);
+// y();
+
+
+//var in block case
+// function myblock(){
+//     if(true)
+//     {
+//         var x=9*9;
+//     }
+//     console.log(x);
+// }
+// myblock()
+
+
+//let in block and function
+
+// function b()
+// {
+//     if(true)
+//     {
+//         var y=32*56+(75/56);
+//         console.log(y);
+//     }
+//     console.log(y+2);
+// }
+// b();
+
+//DOM
+// const b=document.head;
+// console.log(b);
+// const a=document.body.firstElementChild;
+// const a=document.body.lastElementChild;
+// console.log(a);
+
+// const a=document.getElementById("as");
+// console.log(a);
+// a.innerHTML="sdfghjk<b>dfghj</b>";       // can use HTML tag
+// //a.innerText="gfd"                      //can't use HTML tag
+
+// const p=document.getElementsByClassName("r");
+// console.log(p[0]);
+// p[0].innerHTML="<b>hgfd</b>";                          //can't use innerHTML in class
+// const tag=document.getElementsByTagName("span");
+// console.log(tag[0]);
+// tag[0].innerHTML="<marquee><b>khub ramailo xa</b></marquee>"
+// const naam=document.getElementsByName("naam");
+// console.log(naam[0]);
+// naam[0].style.width="25%";
+// // naam[0].style.background="red";
+
+// const button=document.getElementById("bu");
+// console.log(button);
+// button.innerHTML="Save gardim?";
+// // button.style.background="aqua";
+// const yu=document.querySelector("button");
+// console.log(yu);
+// // yu.innerHTML="Save garna na vul";
+// // yu.style.backgroundColor="#bbbfff";
+// // yu.style.cursor="pointer";
+// // yu.style.border="0";
+// // yu.style.padding="10px";
+// // const po=document.createElement("h2");
+// // console.log(po);
+// // document.body.append(po);
+// function my()
+// {
+//     const a=document.createElement(pow);
+//     pow.innerHTML="kjhgfd"
+//     document.body.prepend(po);
+    
+// }
+// my()
+// button.onlick=my();
+
+
+
+
+
