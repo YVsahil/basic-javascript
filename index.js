@@ -314,7 +314,7 @@ alert(x)*/
 // }
 // b();
 
-//DOM
+// DOM
 // const b=document.head;
 // console.log(b);
 // const a=document.body.firstElementChild;
@@ -343,14 +343,14 @@ alert(x)*/
 // // button.style.background="aqua";
 // const yu=document.querySelector("button");
 // console.log(yu);
-// // yu.innerHTML="Save garna na vul";
-// // yu.style.backgroundColor="#bbbfff";
-// // yu.style.cursor="pointer";
-// // yu.style.border="0";
-// // yu.style.padding="10px";
-// // const po=document.createElement("h2");
-// // console.log(po);
-// // document.body.append(po);
+// yu.innerHTML="Save garna na vul";
+// yu.style.backgroundColor="#bbbfff";
+// yu.style.cursor="pointer";
+// yu.style.border="0";
+// yu.style.padding="10px";
+// const po=document.createElement("h2");
+// console.log(po);
+// document.body.append(po);
 // function my()
 // {
 //     const a=document.createElement(pow);
@@ -362,6 +362,87 @@ alert(x)*/
 // button.onlick=my();
 
 
+// const a=document.querySelector("#nepal");
+// console.log(a);
+// a.innerHTML="<b>Nepal is my country</b>";
+// a.style.color="red";
+// a.style.background="blue";
 
+// const button=document.querySelectorAll("button");
+// // console.log(button);
+// for(let i=0;i<button.length;i++)
+// {
+//     button[1].innerText="SAVE";
+//     button[1].style.color="red";
+//     button[1].style.backgroundColor="red";
+//     button[1].style.border="0px";
+//     button[1].style.padding="5px";
+// }
+
+
+// mybutton.onclick=myfunc;
+// function delete gardeu()
+// {
+//     const deletehandeu=document.querySelector("h2");
+//     deletehandeu.remove();
+// }
+// const a=document.querySelectorAll("span");
+// console.log(a)
+// for(let i=0;i<StereoPannerNode.length;i++)
+// {
+//     a[0].innerHTML="<marquee>jam</marquee>";  
+//     a[0].style.backgroundColor="#FAEBD7"
+// }
+
+
+//advanced array method
+
+//for each
+//if we use foreach it cannot return array. it only iterate main array
+let a=[2,3,4,5,6,7,8,9];
+// const myres=()=>
+// {
+
+// }
+// const res=a.forEach((value,index,array) =>{
+//     // console.log(index+"="+value);
+//     return(array[index]=value+2);
+// })
+
+// console.log(res);
+
+//map
+//if we use map method it returns new array after iterate main array
+// const mymap=a.map((value, index, array)=>{
+//     // console.log(value,index,array);
+//     return array[index]=value+2;
+// })
+// console.log(mymap);
+
+//filter
+// const myfilter=a.filter((value,index)=>{
+// //    return value>2;
+// //    return value % 2===0; //for even
+//    return value % 2 !==0;   //for odd
+// })
+// console.log(myfilter);
+
+
+//find method
+// const myfind=a.find((value,index)=>{
+//     return value>4;
+// })
+// console.log(myfind);
+
+
+//reduce method
+// const redu=a.reduce((total, curvalue,index,array)=>{
+//     //return single value output(mathematical calculation use garda use garne)
+//    console.log(total,curvalue,index);
+//     total=(total+curvalue)/2;
+
+//     return total;
+// })
+// console.log(redu);
 
 
