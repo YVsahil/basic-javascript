@@ -454,54 +454,74 @@ alert(x)*/
 
 
 //add event listeners
-const h1=document.getElementById("h1");
-const mydiv=document.getElementById("mydiv");
-const mybutton=document.getElementById("mybutton");
-const input=document.getElementById("input")
-mybutton.style.backgroundColor="blue";
-mybutton.style.padding="5px";
-mybutton.style.border="0px";
-mybutton.addEventListener("click",()=>{
-    // console.log("clicked");
-    // mydiv.style.background="purple";
-    // mydiv.style.color="grey";
-    // mydiv.style.padding="8px";
-    // mydiv.style.margin="5px";
-    mydiv.classList.add("newCssDiv");
-
-});
-mydiv.addEventListener("mouseover",()=>{
-        mybutton.style.transform="scale(1.1)";
-        h1.style.background="yellow";
-})
-mydiv.addEventListener("mouseout",()=>{
-    mybutton.style.transform="";
-    // NewTag.style.background="";
-})
-input.addEventListener("change",(e)=>{
-    console.log(e);
-    console.log(e.target.value);
-});
-mydiv.addEventListener("dblclick",()=>{
-    document.body.style.backgroundColor="black";
-})
-mydiv.addEventListener("click",()=>{
-    document.body.style.backgroundColor="blue";
-})
+// const h1=document.getElementById("h1");
+// const mydiv=document.getElementById("mydiv");
+// const mybutton=document.getElementById("mybutton");
+// const input=document.getElementById("input")
+// mybutton.style.backgroundColor="blue";
+// mybutton.style.padding="5px";
+// mybutton.style.border="0px";
 // mybutton.addEventListener("click",()=>{
+//     // console.log("clicked");
+//     // mydiv.style.background="purple";
+//     // mydiv.style.color="grey";
+//     // mydiv.style.padding="8px";
+//     // mydiv.style.margin="5px";
+//     mydiv.classList.add("newCssDiv");
+
+// });
+// mydiv.addEventListener("mouseover",()=>{
+//         mybutton.style.transform="scale(1.1)";
+//         h1.style.background="yellow";
+// })
+// mydiv.addEventListener("mouseout",()=>{
+//     mybutton.style.transform="";
+//     h1.style.background="";
+// })
+// input.addEventListener("change",(e)=>{
+//     console.log(e);
+//     console.log(e.target.value);
+// });
+// mydiv.addEventListener("dblclick",()=>{
+//     document.body.style.backgroundColor="black";
+// })
+// mydiv.addEventListener("click",()=>{
 //     document.body.style.backgroundColor="blue";
 // })
-mybutton.addEventListener("contextmenu",(e)=>{
-    e.preventDefault();
-    mybutton.style.backgroundColor="red";
+// // mybutton.addEventListener("click",()=>{
+// //     document.body.style.backgroundColor="blue";
+// // })
+// mybutton.addEventListener("contextmenu",(e)=>{
+//     e.preventDefault();
+//     mybutton.style.backgroundColor="red";
 
-})
-addEventListener("contextmenu",(e)=>{
-    e.preventDefault();
-})
+// })
+// addEventListener("contextmenu",(e)=>{
+//     e.preventDefault();
+// })
 
+//local storage and session storage
+// const button=document.getElementById("mybutton");
+// const input=document.getElementById("input");
+// const myclear=document.getElementById("myclear");
+// const deletetoken=()=>{
+//     localStorage.clear();
+// }
+// const callmeback=()=>
+// {
+//     // alert(input.value);
+//     // sessionStorage.setItem("key",input.value);
+//     localStorage.setItem("key",input.value)
+//     if(localStorage.getItem("key")){
+//         alert(localStorage.getItem("key"));
+//     }
+//     else{
+//         alert("uta ja")
+//     }
+// }
 
-
+// button.addEventListener("click",callmeback);
+// myclear.addEventListener("click",deletetoken)
 
 
 
