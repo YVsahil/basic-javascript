@@ -509,19 +509,95 @@ alert(x)*/
 // }
 // const callmeback=()=>
 // {
-//     // alert(input.value);
+//     alert(input.value);
 //     // sessionStorage.setItem("key",input.value);
-//     localStorage.setItem("key",input.value)
-//     if(localStorage.getItem("key")){
-//         alert(localStorage.getItem("key"));
+//     localStorage.setItem(
+//         "name",
+    
+//     JSON.stringify({fname:"sahil",lname:"yadav",age:21})
+//     );
+//     if(localStorage.getItem("name"))
+//     {
+//         alert(localStorage.getItem("name"));
+//         console.log(JSON.parse(localStorage.getItem("name")));
 //     }
 //     else{
 //         alert("uta ja")
 //     }
 // }
-
 // button.addEventListener("click",callmeback);
-// myclear.addEventListener("click",deletetoken)
+// myclear.addEventListener("click",deletetoken);
+
+
+//math object
+
+// const value=Math.random();
+// console.log(value);
+
+//abs
+// const abs=Math.abs(-9);
+// console.log(abs);
+// function  substract(a,b){
+//     return Math.abs(a-b);
+// }
+// console.log(substract(2,9));
+
+//trunct
+// const val=Math.trunc(5.987654);
+// console.log(val);
+
+//round
+// const val= Math.round(6.6876543);
+// console.log(val);
+
+//floor
+// const val=Math.floor(6.98765432);
+// console.log(val);
+
+//ceiling
+// const val=Math.ceil(3.987654);
+// console.log(val);
+
+//maximum
+// const max=Math.max(3,5,3,2,4,1,66,64);
+// console.log(max);
+
+//minimum
+// const min=Math.min(3,5,3,2,4,1,66,64);
+// console.log(min);
+
+//power
+// const pow=Math.pow(6,7);
+// console.log(pow);
+
+// //square
+// const sq=Math.sqrt(255);
+// console.log(sq);
+
+
+//date
+
+// const mydate=new Date();
+// console.log(mydate.toISOString());
+
+//set timeout
+// setTimeout(() => {
+//     console.log("NEPAL")
+// }, 5000);
+
+//set timeinterval
+// const time=setInterval(()=>{
+//     console.log("HELLO");
+// });
+// setTimeout(()=>{
+//     clearInterval(time);
+//     console.log("POWER");
+// },2000);
+
+
+
+
+
 
 
 
