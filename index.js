@@ -597,7 +597,122 @@ alert(x)*/
 
 
 
+//oop concept
+//constructor function
+
+
+//dom
+// const Form=document.getElementById("form");
+// const Name=document.getElementById("customerName");
+// const Amount=document.getElementById("Amount");
+
+// const Form1=document.getElementById("form1");
+// const AccountNumber=document.getElementById("accountno");
+// const DepoAmount=document.getElementById("depositeamo");
+
+// const Form2=document.getElementById("form2");
+// const Name1=document.getElementById("accountno1");
+// const WithdrawAmount=document.getElementById("withdrawn");
+
+
+// let accounts=[];
+// Form.addEventListener("submit",(e)=>{
+//     e.preventDefault();
+//     const account=new BankAccount(customerName.value,+Amount.value);
+//     accounts.push(account);
+//     console.log(accounts);
+// })
+
+
+// Form1.addEventListener("submit",(e)=>{
+//     e.preventDefault();
+//     const DepoValue=accounts.find(
+//         (value,index)=>value.accountNumber===+AccountNumber.value);
+//         DepoValue.deposite(+DepoAmount.value);
+//         console.log(accounts);
+// })
+
+// Form2.addEventListener("submit",(e)=>{
+//     e.preventDefault();
+//     const WithdrawValue=accounts.find(
+//         (value,index)=>value.accountNumber===+AccountNumber.value);
+//         WithdrawValue.withdrawn(+WithdrawAmount.value);
+//         console.log(accounts);
+// })
+
+// function BankAccount(customerName,balance=0){
+//     this.customerName=customerName;
+//     this.accountNumber=Date.now();
+//     this.balance=balance;
+    // this.deposite=function(amount){
+    //     this.balance=this.balance+amount;
+    //     // this.amount+=amount;
+    // }
+    // this.withdrawn=function(amount){
+    //     this.balance=this.balance-amount;
+        // this.balance-=amount;
+//    }
+// }
 
 
 
 
+// BankAccount.prototype.deposite=function(amount){
+//     this.balance=this.balance+amount;
+//     console.log(`Deposited ${amount},Current Balance is: ${this.balance}`);
+// }
+// BankAccount.prototype.withdrawn=function(amount){
+//     this.balance=this.balance-amount;
+//     if(this.balance>=amount){
+//         this.balance-=amount;
+//         console.log(`Withdrawn ${amount},Current balance is:${this.balance}`);
+//     }
+//     else{
+//         console.log(`Insufficient Balance current balance is : ${this.balance}`);
+//     }
+// }
+
+// const nabil=new BankAccount("Sahil Yadav",100000);
+// const na=new BankAccount("Sahil YV");
+// const nic=new BankAccount("Sahil Yadav",1000);
+// console.log(nabil,na,nic);
+// // // console.log(na);
+// na.deposite(5000);
+// nabil.withdrawn(50000);
+// nabil.withdrawn(2000);
+
+
+
+
+
+//class based oops(concept in js)
+//constructor:   it is a special method that is used to initailize the object when it is created;
+//use constructor in class based oop
+
+
+// class BankAccount{
+//     constructor(CustomerName, balance=0){
+//         this.CustomerName=CustomerName;
+//         this.AccountNumber=Date.now();
+//         this.balance=balance;
+//     }
+//     deposite(amount){
+//         this.balance+=amount;
+//         console.log(`Deposited ${amount}, Current Balance is: ${this.balance}`)
+//     }
+//     withdrawn(amount){
+//         if(this.balance>=amount){
+//         this.balance-=amount;
+//         console.log(`Withdrawn ${amount}, Current balance is: ${this.balance}`);
+//         }
+//         else{
+//             console.log(`Garib xas babu ta, her ${this.balance} eti ho, ka bata ${amount} pauxas`);
+//         }
+//     }
+// }
+
+// const nic=new BankAccount("Sahil");
+// const nabil=new BankAccount("Nitesh",50000);
+// // console.log(nabil);
+// nic.withdrawn(6000);
+// nabil.withdrawn(45000);

@@ -5,7 +5,7 @@
 .a{
     font-family:cursive;
     font-size: 50px;
-    color: cadetblue;
+    color: rgb(91, 51, 199);
 }
 form{
     display: flex;
@@ -29,6 +29,8 @@ body{
 h1{
     text-align: center;
     color: black;
+    background: rgb(252,251,252);
+background: linear-gradient(90deg, rgba(252,251,252,1) 0%, rgba(252,249,126,1) 50%, rgba(251,251,250,1) 100%);
 }
 button{
     background-color: rgb(106, 106, 249);
@@ -57,6 +59,7 @@ button:hover{
 #desc{
     border-radius:10px;
     padding: 5px;
+    border: 2px dotted;
 }
 .deletebtn{
     border-radius: 70px;
