@@ -710,9 +710,184 @@ alert(x)*/
 //         }
 //     }
 // }
+// console.log(thZZZ)
 
 // const nic=new BankAccount("Sahil");
 // const nabil=new BankAccount("Nitesh",50000);
 // // console.log(nabil);
 // nic.withdrawn(6000);
 // nabil.withdrawn(45000);
+
+
+// class Person{
+//     constructor(Fname,Lname,Age){
+//         this.Fname=Fname;
+//         this.Lname=Lname;
+//         this.Age=Age;
+//     }
+//     Hello(){
+//         console.log(`Hello ${this.Fname} ${this.Lname} your age is ${this.Age}`);
+//     }
+// }
+// const me=new Person("sahil","yadav",21);
+// me.Hello();
+
+// function BankAccount(CustomerName,balance=0){
+//     this.CustomerName=CustomerName;
+//     this.balance=balance;
+//     this.AccountNumber=Date.now();
+// }
+// BankAccount.prototype.deposit=function(amount){
+//     this.deposit = function(amount){
+//         this.balance=this.balance+amount;
+//     }
+// }
+// BankAccount.prototype.withdraw=function(amount){
+//     this.deposit = function(amount){
+//         this.balance-=amount;
+//     }
+// }
+
+// BankAccount.prototype.deposit=function(amount){
+//     this.deposit = function(amount){
+//         this.balance+=amount;
+//     }
+// }
+
+//INHERITACE
+// function currentaccount(CustomerName, balance=0){
+//     BankAccount.call(this,CustomerName,balance);   //constructor calling
+//     this,transactionLimit=50000;
+// }
+// currentaccount.prototype=Object.create(BankAccount.prototype)
+// const ramacc=new currentaccount("ram",30000);
+// ramacc.deposit(2000);
+// // console.log(ramacc);
+// currentaccount.prototype.takebusinessloan=function(amount){
+//     console.log(`Taking business loan is: ${amount}`);
+// }
+// ramacc.takebusinessloan(60000);
+// console.log(ramacc);
+
+
+// const hariAcc=new BankAccount("hari",2000);
+// const shyamAcc = new BankAccount("shyam",9000);``
+// console.log(hariAcc,shyamAcc)
+
+
+
+//Class based oop and inheritance
+
+// class BankAccount{
+//    CustomerName;
+//    AccountNum;
+//    #balance;
+
+//    constructor(CustomerName,balance=0){
+//     this.CustomerName=CustomerName;
+//     this.AccountNum=Date.now();
+//     this.#balance;
+//    }
+//    deposit(amount){
+//     this.#balance+=amount;
+//     console.log(`Deposited ${amount},current balance is: ${this.#balance}`);
+//    } 
+//    withdraw(amount){
+//     if(this.#balance>amount){
+//         this.#balance-=amount;
+//         console.log(`Withdrawn ${amount},current balance is: ${this.#balance}`);
+//     }
+//     else{
+//         console.log(`Bhai paisa ${this.#balance} xa ani ka bata ${amount} linxas`)
+//     }
+//    }
+//    //setter
+//    set balance(amount){
+//     this.#balance=amount;
+//    }
+//    //getter
+//    get balance(){
+//     return this.#balance
+//    }
+// }
+
+
+// class CurrentAccount extends BankAccount{
+
+//     constructor(CustomerName,balance=0){
+//         super(CustomerName,balance);
+//         this.transactionlimit=50000;
+//     }
+//     #calculateinterest(amount){
+//         // console.log(`calculating interest!`);
+//         const interest=amount*0.1;
+//         console.log(`Interest amount is: ${interest}`);
+//     }
+//     takebusninessloan(amount){
+//         this.#calculateinterest(amount);
+//         console.log(`Taking business loan is: ${amount}`);
+//     }
+//  }
+
+// const Ram=new BankAccount("Ram",30000);
+// console.log(Ram);
+// Ram.deposit(2000);
+// Ram.withdraw(20000);
+// Ram.withdraw(30000);
+
+// const ram=new CurrentAccount("Ram",20000);
+// // ram.balance=8000;
+// ram.takebusninessloan(90000);
+// console.log(ram);
+
+
+
+// ram.balance=30;
+// console.log(ram);
+// ram.deposit(3000);
+// ram.withdraw(60000);
+// ram.takebusninessloan(8000);
+
+
+//static property and method
+
+// class Calculator{
+//     static add(a,b){
+//         return a+b;
+//     }
+//     static subtract(a,b){
+//         return Math.abs(a-b);
+//     }
+
+// }
+// let addition=Calculator.subtract(5,7);
+// console.log(addition);
+
+// const ramd=Math.random();
+// console.log(ramd);
+
+// class User{
+//     static id=1;
+//     constructor(Name,Age,Income){
+//         this.Name=Name;
+//         this.Age=Age;
+//         this.Income=Income;
+//         this.id=User.id++;
+//     }
+//     static sortbyage(a,b){
+//         return a.Age-b.Age;
+//     }
+//     static sortbyincome(a,b){
+//         return a.Income-b.Income;
+//     }
+// }
+// const user1=new User("Ram",21,56000);
+// const user2=new User("Abnish",69,2000);
+// const user3=new User("Laxman",68,10000);
+// const users=[user1,user2,user3];
+// // users.sort(User.sortbyage);
+// // users.sort(User.sortbyincome)
+// console.log(users);
+
+
+
