@@ -888,6 +888,26 @@ alert(x)*/
 // // users.sort(User.sortbyage);
 // // users.sort(User.sortbyincome)
 // console.log(users);
+// function myname(name="sahil"){
+//   setTimeout(()=>{
+//     for(i=0;i<1000;i++){
+//         console.log(`What's up ${name}`);
+//         }
+//   },8000);
+// }
+
+
+
+// const a=myname();
+// alert("K xa kta");
+// console.log(a);
+// console.log("Uja aba");
+
+// setTimeout(()=>{
+//     console.log("Hello world");
+// },5000);
+// alert("jhgfdfghjk")
+
 
 
 
