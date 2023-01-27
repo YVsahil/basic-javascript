@@ -909,5 +909,77 @@ alert(x)*/
 // alert("jhgfdfghjk")
 
 
+//call back function (concept)
+
+// function calc(a,b,callback){
+//     let result=a+b;
+//     callback(result)
+
+// }
+// calc(99,3,((sum)=>{
+//     console.log(`the sum is ${sum}`)
+// }));
 
 
+//calc
+// let arr=[2,6,3,2,8,3,6,54,2,5];
+// function calc(arr=[],callback){
+//     let Newarr=[];
+//     for(i=0;i<arr.length;i++){
+//         const vari=callback(arr[i]+1);
+//         Newarr.push(vari)
+//     }
+//     console.log(Newarr);
+// };
+// function add(a){
+//     return a+5;
+// }
+// function sub(a){
+//     return a-5;
+// }
+
+// calc(arr,(a)=>a+5);
+// calc(arr,sub);
+
+
+
+
+//promises concept
+
+// const pro=new Promise((resolve,reject)=>{
+//     // resolve("Promise fulfilled");
+//     reject("Technical error aayo");
+    
+// });
+// pro.then((msg)=>console.log(msg)).catch((error)=>console.log(error)).finally(()=>console.log("Hello ji"))
+// let arr=[]
+// function fetchdata(arr=[]){
+//     return new Promise((resolve,reject)=>{
+//         arr.push({name:"Sahil",age:32});
+//         if(arr.length>0){
+//             resolve("Promise fulfilled");
+//         }
+//         else{
+//             reject("Some Tedchnical error");
+//         }
+//     });
+// };
+// fetchdata(arr).then((msg)=>console.log(msg))
+// .catch((error)=>console.log(error))
+// .finally(()=>console.log("all done"));
+
+
+
+//fetch api
+// const h1=document.querySelector("h1");
+
+// const url="https://official-joke-api.appspot.com/random_joke";
+// function fetchdata(){
+//     fetch(url)
+//         .then((res)=>{
+//             return res.json();
+//         })
+//         .then((data)=>(h1.innerText=data.fact));
+//         .catch((error)=>console.log(error));
+// }
+// fetchdata();
